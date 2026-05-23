@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gúla Szerviz KFT - Nissan Szakszerviz Budapest | Javítás, Karbantartás, Diagnosztika</title>
+    <meta name="description" content="Gúla Szerviz KFT - Megbízható Nissan szakszerviz Budapest 10. kerületében, Keresztúri úton. 20 év tapasztalat, 9000+ javított autó. Nissan javítás, karbantartás, diagnosztika és állapotfelmérés szakértői szinten. Időpontfoglalás: +36 20 982 2553">
+    <meta name="keywords" content="Nissan szerviz Budapest, Nissan javítás, Nissan karbantartás, Nissan diagnosztika, autószerviz Budapest, Keresztúri út, Gúla Szerviz, Nissan szakszerviz, autójavítás Budapest">
+    <meta name="author" content="Gúla Szerviz KFT">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://gulaszerviz.hu/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gulaszerviz.hu/">
+    <meta property="og:title" content="Gúla Szerviz KFT - Nissan Szakszerviz Budapest">
+    <meta property="og:description" content="Megbízható Nissan szakszerviz Budapest 10. kerületében. 20 év tapasztalat, 9000+ javított autó. Javítás, karbantartás, diagnosztika.">
+    <meta property="og:image" content="https://gulaszerviz.hu/images/gula logo.png">
+    <meta property="og:locale" content="hu_HU">
+    <meta property="og:locale:alternate" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gulaszerviz.hu/">
+    <meta property="twitter:title" content="Gúla Szerviz KFT - Nissan Szakszerviz Budapest">
+    <meta property="twitter:description" content="Megbízható Nissan szakszerviz Budapest 10. kerületében. 20 év tapasztalat, 9000+ javított autó.">
+    <meta property="twitter:image" content="https://gulaszerviz.hu/images/gula logo.png">
+    
+    <link rel="icon" type="image/x-icon" href="images/gula logo.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS Baseline & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/wave.css">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AutoRepair",
+        "name": "Gúla Szerviz KFT",
+        "image": "https://gulaszerviz.hu/images/gula logo.png",
+        "description": "Nissan szakszerviz Budapest 10. kerületében, Keresztúri úton. 20 év tapasztalat, 9000+ javított autó.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Keresztúri út 208",
+            "addressLocality": "Budapest",
+            "postalCode": "1106",
+            "addressCountry": "HU"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 47.4869997743914,
+            "longitude": 19.199773027409403
+        },
+        "url": "https://gulaszerviz.hu/",
+        "telephone": "+36209822553",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "16:00"
+            }
+        ],
+        "priceRange": "$$",
+        "areaServed": {
+            "@type": "City",
+            "name": "Budapest"
+        },
+        "serviceType": ["Nissan javítás", "Nissan karbantartás", "Nissan diagnosztika", "Állapotfelmérés", "Autójavítás"],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "50"
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Dynamic Transition Loader -->
+    <div id="loader">
+        <div class="spinner-circle"></div>
+    </div>
+
+    <!-- Premium Sticky Header Navbar -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo-wrapper">
+                <img src="images/gula logo.png" alt="Gúla Szerviz Logo" class="logo-img">
+                <span class="logo-text">Gúla Szerviz</span>
+            </a>
+            
+            <!-- Desktop Menu -->
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link active" data-i18n="nav.home">Főoldal</a>
+                <a href="flottak.html" class="nav-link" data-i18n="nav.fleets">Flották</a>
+                <a href="felvasarlas.html" class="nav-link" data-i18n="nav.purchase">Jármű Felvásárlás</a>
+                <a href="karrier.html" class="nav-link" data-i18n="nav.career">Karrier</a>
+                <a href="#Footer" class="nav-link" data-i18n="nav.contact">Kapcsolat</a>
+                <a href="tel:+36209822553" class="nav-cta" data-i18n="nav.booking">Időpontfoglalás</a>
+                
+                <!-- Language drop-down -->
+                <select id="langSelect" class="lang-selector" aria-label="Nyelvválasztó">
+                    <option value="hu">HU</option>
+                    <option value="en">EN</option>
+                    <option value="de">DE</option>
+                </select>
+            </nav>
+
+            <!-- Hamburger Button -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Menü megnyitása">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Overlay Menu -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+    <div class="nav-drawer" id="navDrawer">
+        <a href="index.html" class="nav-link active" data-i18n="nav.home">Főoldal</a>
+        <a href="flottak.html" class="nav-link" data-i18n="nav.fleets">Flották</a>
+        <a href="felvasarlas.html" class="nav-link" data-i18n="nav.purchase">Jármű Felvásárlás</a>
+        <a href="karrier.html" class="nav-link" data-i18n="nav.career">Karrier</a>
+        <a href="#Footer" class="nav-link" data-i18n="nav.contact">Kapcsolat</a>
+        <a href="tel:+36209822553" class="nav-cta w-100 text-center mt-3" data-i18n="nav.booking">Időpontfoglalás</a>
+        
+        <div class="d-flex gap-3 justify-content-center mt-4">
+            <a href="#" class="btn btn-outline-light btn-sm lang-switch-btn" data-lang="hu">HU</a>
+            <a href="#" class="btn btn-outline-light btn-sm lang-switch-btn" data-lang="en">EN</a>
+            <a href="#" class="btn btn-outline-light btn-sm lang-switch-btn" data-lang="de">DE</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-bg-wrapper">
+            <img src="images/bg.jpg" alt="Gúla Szerviz Műhely" class="hero-bg-img">
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="hero.title">Gúla Szerviz KFT.</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Ahol minden autó meggyógyul!</p>
+            <a href="#Footer" class="hero-btn">
+                <i class="fa-solid fa-calendar-check"></i>
+                <span data-i18n="hero.cta">Időpontfoglalás</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section-padding about-section" id="AboutUs">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="about-img-wrapper">
+                        <img src="images/aboutus.jpg" alt="Gúla Szerviz Rólunk" class="about-img">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="about-text-content">
+                        <span class="section-tag" data-i18n="about.section_tag">KGY Gúla Kft.</span>
+                        <h2 class="section-title" data-i18n="about.section_title">Rólunk</h2>
+                        <div class="underline-center ms-0 mb-4"></div>
+                        <h3 data-i18n="about.title">Cégünk története - 20 év tapasztalat a Nissan szervizben</h3>
+                        <p data-i18n="about.text">A Gúla Szerviz KFT megközelítőleg 20 éve foglalkozik <strong>Nissan típusú személygépkocsik, SUV-ok, terepjárók és kisteherautók javításával</strong> Budapesten. Több, mint <strong>10 000 sikeres javításon</strong> vagyunk túl, amely tapasztalatunkat folyamatosan bővíti.<br><br>Legyen szó <strong>időszakos szervizekről, típushibák orvoslásáról vagy egyedi meghibásodásról</strong>, tapasztalt csapatunk készen áll arra, hogy pontosan feltárja a hibát és a <strong>lehető leggazdaságosabb megoldást</strong> nyújtsa Önnek. Az ügyfeleink jelentős része a garanciaidő lejárta után keres fel minket, az általunk javított autók jellemzően 5-20 év közöttiek. Természetesen nem csak Nissan típusú gépkocsik javítását vállaljuk - széles körű autószerviz szolgáltatásokat nyújtunk Budapesten.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section-padding services-section" id="Services">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title" data-i18n="services.section_title">Szolgáltatásaink</h2>
+                <div class="underline-center"></div>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <i class="fa-solid fa-user-gear"></i>
+                    </div>
+                    <h4 class="service-card-title" data-i18n="services.card1.title">Nissan tanácsadás</h4>
+                    <p class="service-card-text" data-i18n="services.card1.text">Mielőtt Nissan gépkocsit vásárol, hívjon bátran bennünket! Szívesen állunk rendelkezésére szakértői tanácsadással, hogy mire érdemes odafigyelni az Ön gépjárművével kapcsolatban. Tapasztalt szakembereink segítenek a megfelelő döntésben.</p>
+                    <a href="#Footer" class="service-card-btn">
+                        <span data-i18n="services.card1.btn">Felkeresés</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h4 class="service-card-title" data-i18n="services.card2.title">Nissan javítás</h4>
+                    <p class="service-card-text" data-i18n="services.card2.text">Minden Nissan javítást, beleértve a kisebb hibákat és a nagyobb javításokat is vállalja szakszervizünk Budapesten. 20 év tapasztalattal és több mint 9000 sikeres javítással a hátunk mögött, keressen bennünket bizalommal!</p>
+                    <a href="#Footer" class="service-card-btn">
+                        <span data-i18n="services.card2.btn">Felkeresés</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    </div>
+                    <h4 class="service-card-title" data-i18n="services.card3.title">Nissan állapotfelmérés</h4>
+                    <p class="service-card-text" data-i18n="services.card3.text">Legyen vásárlás előtt vagy után, tapasztalt kollégáinkkal szakszerűen felmérjük az Ön gépkocsijának az állapotát, részletesen jegyzőkönyvezzük és szakértői véleményt adunk. Így biztos lehet a vásárlásában vagy a jelenlegi autója állapotában.</p>
+                    <a href="#Footer" class="service-card-btn">
+                        <span data-i18n="services.card3.btn">Felkeresés</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <i class="fa-solid fa-car-burst"></i>
+                    </div>
+                    <h4 class="service-card-title" data-i18n="services.card4.title">Autó Felvásárlás</h4>
+                    <p class="service-card-text" data-i18n="services.card4.text">Váltóhibás és motorhibás autókat vásárolunk fel. Telefonos időpontfoglalás vagy emailes ajánlatkérés. Korrekt árazás, gyors folyamat. Hívjon vagy küldjön emailt részletekkel!</p>
+                    <a href="felvasarlas.html" class="service-card-btn">
+                        <span data-i18n="services.card4.btn">Részletek</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="custom-shape-divider-bottom-1728316835">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Detail Blocks Section -->
+    <section class="section-padding" id="MechanicDetails">
+        <div class="container">
+            <div class="section-title-wrapper mb-5">
+                <span class="section-tag" data-i18n="mechanic.section_tag">KGY Gúla Kft.</span>
+                <h2 class="section-title" data-i18n="mechanic.section_title">Nissan Szakszervizünkről</h2>
+                <div class="underline-center"></div>
+            </div>
+
+            <!-- Block 1 -->
+            <div class="row align-items-center mechanic-block-row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="mechanic-img-box">
+                        <img src="images/car.jpg" alt="Nissan karbantartás" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="mechanic-text-box">
+                        <h3 data-i18n="mechanic.block1.title">Nissan karbantartás Budapesten - Szakértői szintű szolgáltatás</h3>
+                        <p data-i18n="mechanic.block1.text">A Gúla Szerviz a Nissan autók karbantartásának szakértője Budapesten. Az időszakos karbantartások segítenek autója hosszú élettartamának megőrzésében és megbízhatóságának biztosításában. Bízza ránk Nissan autójának karbantartását, hiszen gyári előírásoknak megfelelően dolgozunk, és kizárólag eredeti Nissan alkatrészeket használunk. Legyen szó olajcseréről, szűrőcseréről vagy átvizsgálásról, a Gúla Szerviz garantálja a minőségi munkát és a biztonságot minden karbantartási munkánál.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block 2 -->
+            <div class="row align-items-center mechanic-block-row flex-lg-row-reverse">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="mechanic-img-box">
+                        <img src="images/repair.jpg" alt="Nissan javítás" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-5">
+                    <div class="mechanic-text-box">
+                        <h3 data-i18n="mechanic.block2.title">Nissan javítás Budapesten - Gyors és megbízható megoldások</h3>
+                        <p data-i18n="mechanic.block2.text">Ha Nissan autója javításra szorul, ne habozzon felkeresni a Gúla Szervizt Budapesten! Szervizünk gyors és hatékony megoldást kínál minden mechanikai és elektronikai problémára. Legyen szó motorproblémáról, fékrendszer hibáról vagy egyéb meghibásodásról, tapasztalt szakembereink szakszerűen végzik el a javításokat, így autója újra megbízhatóan működik majd. 20 év tapasztalatunk és több mint 9000 sikeres javításunk garantálja a minőséget.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block 3 -->
+            <div class="row align-items-center mechanic-block-row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="mechanic-img-box">
+                        <img src="images/diagnostic.jpg" alt="Nissan diagnosztika" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="mechanic-text-box">
+                        <h3 data-i18n="mechanic.block3.title">Nissan diagnosztika Budapesten - Fejlett eszközökkel</h3>
+                        <p data-i18n="mechanic.block3.text">A Nissan autók esetében elengedhetetlen a precíz diagnosztika, hogy a legkisebb hibák is időben felismerhetők legyenek. A Gúla Szervizben fejlett Nissan diagnosztikai eszközökkel dolgozunk, amelyek pontosan feltárják a rejtett hibákat. Bízza ránk Nissan autójának átvizsgálását, hogy a hibák gyorsan és hatékonyan javítva legyenek, minimalizálva a költségeket és az időveszteséget. Professzionális diagnosztikai szolgáltatásunk segít elkerülni a nagyobb problémákat és költségeket.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block 4 -->
+            <div class="row align-items-center mechanic-block-row flex-lg-row-reverse">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="mechanic-img-box">
+                        <img src="images/mechanic.webp" alt="Nissan elérhetőség" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-5">
+                    <div class="mechanic-text-box">
+                        <h3 data-i18n="mechanic.block4.title">Nissan szerviz elérhetőség és nyitvatartás Budapesten</h3>
+                        <p data-i18n="mechanic.block4.text">Szervizünk címe: Budapest, Kereszturi út 208, 1106. Könnyen megközelíthető helyen található, a Budapest 10. kerületében. Ha időpontot szeretne foglalni, keressen minket a lent megadott mobiltelefonszámon (+36 20 982 2553), akár nyitvatartási időn kívül is. Nyitvatartás: Hétfőtől - Péntekig: 08:00 – 16:00. Szívesen segítünk minden kérdésben!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats / Counter Section -->
+    <section class="counter-section">
+        <div class="container">
+            <div class="counter-grid">
+                <div class="counter-item">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <div class="counter-number" data-target="20">20</div>
+                    <div class="counter-label" data-i18n="counter.exp">év tapasztalat</div>
+                </div>
+                <div class="counter-item">
+                    <i class="fa-solid fa-car"></i>
+                    <div class="counter-number" data-target="9000">9000</div>
+                    <div class="counter-label" data-i18n="counter.cars">javított autó</div>
+                </div>
+                <div class="counter-item">
+                    <i class="fa-solid fa-percent"></i>
+                    <div class="counter-number" data-target="97">97</div>
+                    <div class="counter-label" data-i18n="counter.rate">sikerességi ráta</div>
+                </div>
+                <div class="counter-item">
+                    <i class="fa-solid fa-star"></i>
+                    <div class="counter-number" data-target="4.9">4.9</div>
+                    <div class="counter-label" data-i18n="counter.rating">értékelés</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section-padding testimonials-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="section-tag" data-i18n="test.section_tag">Vélemények</span>
+                <h2 class="section-title" data-i18n="test.section_title">Ügyfeleink írták</h2>
+                <div class="underline-center" style="background: white;"></div>
+            </div>
+            
+            <div class="row g-4 mt-2">
+                <!-- Testimonial 1 -->
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div>
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text" data-i18n="test.card1.text">Nagyon profi, hozzáértő szakembert ismertem meg H Gyula úr személyében. Rögtön kaptam időpontot és gyorsan kész lett, azóta szuper és nem jelzi a hibát. Nagyon hálás vagyok neki, mert pontosan elmondott mindent, ami gond volt az autóval és kedvező áron javította. Mindenkinek nyugodt szívvel ajánlom.</p>
+                        </div>
+                        <div class="client-info">
+                            <img src="images/avatar-3814049_1280.png" alt="Mária" class="client-avatar">
+                            <span class="client-name">Mária</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div>
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text" data-i18n="test.card2.text">Kedves Nissanos barátom! Ez a legjobb szerviz ahol valaha voltam. 27 éve taposom a gázt az utakon, de ilyen korrekt szolgáltatásban még sohasem volt részem. A tulajdonos barátságos, segítőkész, minden időre és pontosan elkészült. Rendkívül baráti áron. Ha jót akarsz magadnak, ide viszed az autódat.</p>
+                        </div>
+                        <div class="client-info">
+                            <img src="images/avatar-3814049_1280.png" alt="Viktor" class="client-avatar">
+                            <span class="client-name">Viktor</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div>
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text" data-i18n="test.card3.text">Nagyon gyors időpontfoglalás, gyors hibafeltárás, nagy szakértelem. Minden kérdésemre maximális felvilágosítást adott és mások által nem felismert hibát is orvosolni tudta. Családias légkör, pontos munkavégzés és kedvező ár. Nagy segítő szándékkal rendelkező embert ismertem meg Gyula személyében. Köszönet érte!</p>
+                        </div>
+                        <div class="client-info">
+                            <img src="images/avatar-3814049_1280.png" alt="Éva" class="client-avatar">
+                            <span class="client-name">Éva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Contact Area -->
+    <footer class="footer-section" id="Footer">
+        <div class="container footer-top">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="contact-info-grid">
+                        <!-- Nyitvatartás -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4 data-i18n="footer.hours.title">Nyitvatartás</h4>
+                                <p data-i18n="footer.hours.text">Hétfőtől - Péntekig: 08:00 – 16:00</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Cím -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4 data-i18n="footer.address.title">Cím</h4>
+                                <p data-i18n="footer.address.text">Keresztúri út 208 - Budapest 1106</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Telefon -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4 data-i18n="footer.phone.title">Telefonszám</h4>
+                                <a href="tel:+36209822553" class="fw-bold">+36 20 982 2553</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7">
+                    <div class="map-container">
+                        <!-- Google Maps Embed -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d953.2328177938248!2d19.199773027409403!3d47.4869997743914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c38458c12899%3A0xc7518767d2a2be4!2sKGY%20Gula%20Szerviz%20Kft.!5e0!3m2!1shu!2shu!4v1728249499777!5m2!1shu!2shu" allowfullscreen="" loading="lazy" aria-label="Térkép"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <div class="footer-copyright" data-i18n="footer.copyright">
+                © 2026 Gúla Szerviz KFT. Nissan Szakszerviz. Minden jog fenntartva.
+            </div>
+            <div class="d-flex gap-3">
+                <a href="https://facebook.com" class="text-light fs-5" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://instagram.com" class="text-light fs-5" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <!-- Sticky Floating Controls -->
+        <a href="#" class="language-btn show" id="langSwitchFloating" aria-label="Change language" title="Nyelv váltás / Change language">
+            <i class="fa-solid fa-language"></i>
+        </a>
+        <a href="#" class="scroll-btn show" id="scrollTopBtn" aria-label="Scroll to top" title="Lap tetejére / Scroll to top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <!-- Bootstrap 5 CDN JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="javascript/i18n.js"></script>
+    <script src="javascript/main.js"></script>
+    
+    <script>
+        // Set up floating lang button toggle
+        document.getElementById("langSwitchFloating").addEventListener("click", (e) => {
+            e.preventDefault();
+            const langs = ["hu", "en", "de"];
+            let nextIndex = (langs.indexOf(currentLang) + 1) % langs.length;
+            applyTranslations(langs[nextIndex]);
+        });
+    </script>
+</body>
+</html>
