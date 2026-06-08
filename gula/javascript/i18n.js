@@ -218,7 +218,7 @@ const translations = {
 
         "career.apply.title": "Hogyan tudsz jelentkezni?",
         "career.apply.text": "Ha magadra ismertél, és szeretnél egy elismert, 20 éves szakmai múlttal rendelkező autószerviz csapatának tagja lenni, várjuk jelentkezésedet!",
-        "career.apply.email": "Küldd el fényképes szakmai önéletrajzodat az <strong>info@gulaszerviz.hu</strong> címre.",
+        "career.apply.email": "Küldd el fényképes szakmai önéletrajzodat az <strong>hajdugyula@gulaszerviz.hu</strong> címre.",
         "career.apply.phone": "Vagy hívj minket közvetlenül telefonon a <strong>+36 20 982 2553</strong> számon egy személyes egyeztetéshez!",
         "career.apply.btn_email": "Jelentkezés Emailben",
         "career.apply.btn_phone": "Hívás Most: +36 20 982 2553"
@@ -441,7 +441,7 @@ const translations = {
 
         "career.apply.title": "How Can You Apply?",
         "career.apply.text": "If you recognize yourself and would like to become a member of an established auto service team with 20 years of experience, we look forward to your application!",
-        "career.apply.email": "Send your professional CV with a photo to <strong>info@gulaszerviz.hu</strong>.",
+        "career.apply.email": "Send your professional CV with a photo to <strong>hajdugyula@gulaszerviz.hu</strong>.",
         "career.apply.phone": "Or call us directly at <strong>+36 20 982 2553</strong> to arrange a personal meeting!",
         "career.apply.btn_email": "Apply via Email",
         "career.apply.btn_phone": "Call Now: +36 20 982 2553"
@@ -664,7 +664,7 @@ const translations = {
 
         "career.apply.title": "So bewerben Sie sich:",
         "career.apply.text": "Wenn Sie sich angesprochen fühlen und Teil einer traditionsreichen, fachlich kompetenten Werkstattfamilie werden möchten, freuen wir uns auf Ihre Bewerbung!",
-        "career.apply.email": "Senden Sie Ihren Lebenslauf mit Foto per E-Mail an <strong>info@gulaszerviz.hu</strong>.",
+        "career.apply.email": "Senden Sie Ihren Lebenslauf mit Foto per E-Mail an <strong>hajdugyula@gulaszerviz.hu</strong>.",
         "career.apply.phone": "Oder rufen Sie uns direkt unter <strong>+36 20 982 2553</strong> an, um ein persönliches Kennenlernen zu vereinbaren!",
         "career.apply.btn_email": "Per E-Mail bewerben",
         "career.apply.btn_phone": "Jetzt anrufen: +36 20 982 2553"
